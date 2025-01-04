@@ -44,3 +44,7 @@
 /.build
 
 /tools/astyle/venv/
+
+*.vcxproj
+*.vcxproj.filters
+out/
