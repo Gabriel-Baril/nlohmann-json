@@ -48,3 +48,5 @@
 *.vcxproj
 *.vcxproj.filters
 out/
+x64/
+obj/
