@@ -46,6 +46,7 @@
 /tools/astyle/venv/
 
 *.vcxproj
+*.vcxproj.user
 *.vcxproj.filters
 out/
 x64/
