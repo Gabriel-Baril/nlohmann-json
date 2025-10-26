@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class NlohmannJsonProject : Project
+public class HdnCodeExternalNlohmannJsonProject : Project
 {
-    public NlohmannJsonProject()
+    public HdnCodeExternalNlohmannJsonProject()
     {
-        Name = "nlohmann-json";
+        Name = "hdn.code.external.nlohmann-json";
         SourceRootPath = "";
         AddTargets(TargetUtil.DefaultTarget);
     }
