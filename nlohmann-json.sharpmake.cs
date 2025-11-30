@@ -6,11 +6,11 @@ public class HdnCodeExternalNlohmannJsonProject : Project
 {
     public HdnCodeExternalNlohmannJsonProject()
     {
-        Name = "hdn.code.external.nlohmann-json";
+        Name = "dm.code.external.nlohmann-json";
         SourceRootPath = "";
         AddTargets(TargetUtil.DefaultTarget);
     }
-    
+
     [Configure]
     public void ConfigureAll(Project.Configuration conf, Target target)
     {
